@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  overflow: hidden;
+  font-family: "Inter", sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Inter";
+  padding-top: 17px;
+  font-weight: 400;
+}
+.sub-heading {
+  color: #818181;
+  font-size: 13px;
+  padding-top: 15px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.date,
+.time {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  padding-top: 14px;
+}
+
+.map-editor {
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Inter";
+  font-weight: 800;
+  padding-left: 10px;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.mainback {
+  background-color: black;
+}
+
+.display {
+  margin-top: 20px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  width: 250px;
+  height: 32px;
+}
+
+.borderDiv {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 14%;
+  border-bottom: 1px solid grey;
+  width: 250px;
+  height: 140px;
+}
+
+.linebyline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 12%;
+  margin-top: 8px;
+}
+
+.visible {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Inter";
+  padding-top: 17px;
+  padding-bottom: 2px;
+  font-weight: 500;
+  padding-left: 8px;
+}
+
+.bluecolorbox {
+  margin-top: 12px;
+  width: 6%;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #4a67ff;
+}
+
+.redcolorbox {
+  margin-top: 15px;
+  width: 6%;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #ff0000;
+}
+
+.greencolorbox {
+  margin-top: 16px;
+  width: 6%;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #437732;
+}
+
+.purplecolorbox {
+  margin-top: 16px;
+  width: 6%;
+  height: 16px;
+  background-color: #7767a3;
+  border-radius: 4px;
+}
+
+.areaName1 {
+  color: white;
+  padding-top: 10px;
+  padding-left: 8px;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 13px;
+}
+.areaName2 {
+  color: white;
+  padding-top: 4px;
+  padding-left: 8px;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 9px;
+}
+.areaName3 {
+  color: white;
+  padding-left: 8px;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.areaName4 {
+  color: white;
+  padding-left: 8px;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 14px;
+}
+
+.geoZo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.geoZone{
+  color: white;
+  font-size: 13px;
+  padding-top: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  padding-left: 10px;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.addZonbtn{
+  color: white;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.zoneInside{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  width: 4vw;
+  border: 2px solid #3E3E3E;
+  border-radius: 16px;
+  justify-content: center;
+  height: 2vh;
+  background: #3E3E3E;
+  margin-left: 40%;
+}
+
+.openNotification1{
+  background-color: #3D3F43;
+  height: 20vh;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+}
+
+.openNotification2{
+  background-color: #3D3F43;
+  height: 20vh;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+}
+
+.lastNotification1{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #3D3F43;
+  height: 3vh;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+}
+
+.lastNotification2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #3D3F43;
+  height: 3vh;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+}
+
+.lastNotification3{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #3D3F43;
+  height: 3vh;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+}
+
+.bigGreenbox{
+  width: 8%;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #437732;
+  margin-top: 2%;
+}
+
+.bigPurplebox{
+  width: 8%;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #7767a3;
+  margin-top: 2%;
+}
+
+.bigBluebox{
+  width: 8%;
+  height: 18px;
+  border-radius: 4px;
+  background-color: #4a67ff;
+  margin-top: 2%;
+}
+
+.noti1{
+  margin-top: 7%;
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.noti2{
+  margin-top: 4%;
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.noti3{
+  margin-top: 10%;
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  font-size: 11px;
+}
