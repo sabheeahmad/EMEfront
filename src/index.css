@@ -153,13 +153,13 @@ body {
   margin-top: 14px;
 }
 
-.geoZo{
+.geoZo {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
 }
 
-.geoZone{
+.geoZone {
   color: white;
   font-size: 13px;
   padding-top: 15px;
@@ -170,29 +170,29 @@ body {
   margin-left: 8px;
 }
 
-.addZonbtn{
+.addZonbtn {
   color: white;
   font-family: "Inter";
   font-size: 10px;
   font-weight: 400;
 }
 
-.zoneInside{
+.zoneInside {
   margin-top: 3%;
   display: flex;
   flex-direction: row;
   gap: 2px;
   width: 4vw;
-  border: 2px solid #3E3E3E;
+  border: 2px solid #3e3e3e;
   border-radius: 16px;
   justify-content: center;
   height: 2vh;
-  background: #3E3E3E;
+  background: #3e3e3e;
   margin-left: 40%;
 }
 
-.openNotification1{
-  background-color: #3D3F43;
+.openNotification1 {
+  background-color: #3d3f43;
   height: 20vh;
   margin-left: 6%;
   margin-right: 8%;
@@ -200,8 +200,8 @@ body {
   padding-left: 2%;
 }
 
-.openNotification2{
-  background-color: #3D3F43;
+.openNotification2 {
+  background-color: #3d3f43;
   height: 20vh;
   margin-top: 4%;
   margin-left: 6%;
@@ -210,11 +210,11 @@ body {
   padding-left: 2%;
 }
 
-.lastNotification1{
+.lastNotification2 {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  background-color: #3D3F43;
+  background-color: #3d3f43;
   height: 3vh;
   margin-top: 4%;
   margin-left: 6%;
@@ -223,11 +223,11 @@ body {
   padding-left: 2%;
 }
 
-.lastNotification2{
+.lastNotification3 {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  background-color: #3D3F43;
+  background-color: #3d3f43;
   height: 3vh;
   margin-top: 4%;
   margin-left: 6%;
@@ -236,20 +236,7 @@ body {
   padding-left: 2%;
 }
 
-.lastNotification3{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  background-color: #3D3F43;
-  height: 3vh;
-  margin-top: 4%;
-  margin-left: 6%;
-  margin-right: 8%;
-  border-radius: 8px;
-  padding-left: 2%;
-}
-
-.bigGreenbox{
+.bigGreenbox {
   width: 8%;
   height: 18px;
   border-radius: 4px;
@@ -257,7 +244,7 @@ body {
   margin-top: 2%;
 }
 
-.bigPurplebox{
+.bigPurplebox {
   width: 8%;
   height: 18px;
   border-radius: 4px;
@@ -265,7 +252,7 @@ body {
   margin-top: 2%;
 }
 
-.bigBluebox{
+.bigBluebox {
   width: 8%;
   height: 18px;
   border-radius: 4px;
@@ -273,15 +260,15 @@ body {
   margin-top: 2%;
 }
 
-.noti1{
-  margin-top: 7%;
+.noti1 {
+  margin-top: 6%;
   font-family: "Inter";
   color: white;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 12px;
 }
 
-.noti2{
+.noti2 {
   margin-top: 4%;
   font-family: "Inter";
   color: white;
@@ -289,10 +276,72 @@ body {
   font-size: 11px;
 }
 
-.noti3{
+.noti3 {
   margin-top: 10%;
   font-family: "Inter";
   color: white;
   font-weight: 500;
   font-size: 11px;
+}
+
+.lastNotification1 {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #3d3f43;
+  height: 3vh;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+.lastNotification1 > * {
+  margin-bottom: -1vh;
+}
+
+.expandedContent {
+  width: 13vw;
+  background-color: #3d3f43;
+}
+
+.expanded {
+  height: 17vh;
+}
+
+/* .lastNotification1{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #3D3F43;
+  height: 3vh;
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 8%;
+  border-radius: 8px;
+  padding-left: 2%;
+} */
+
+.cardHead {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(192, 189, 189);
+  padding-bottom: 1%;
+}
+
+.cardText {
+  color: whitesmoke;
+  background: #212222;
+  border-radius: 12px;
+  padding-left: 0.5vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
 }

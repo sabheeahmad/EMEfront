@@ -2,8 +2,7 @@ import React from "react";
 import frame from "../Assets/Images/Frame 29.png";
 import Searchbar from "./searchbar";
 import Groupdots from "../Assets/Images/Group 321.png";
-import Addbtn from '../Assets/Images/add.png';
-
+import Addbtn from "../Assets/Images/add.png";
 import Noti from "./notifications";
 
 function Notification() {
@@ -39,62 +38,59 @@ function Notification() {
       </div>
 
       <div className="borderDiv">
-      <div className="linebyline">
-        <div className="bluecolorbox"></div>
-        <div>
-          <p className="areaName1"> No Fly Zone</p>
+        <div className="linebyline">
+          <div className="bluecolorbox"></div>
+          <div>
+            <p className="areaName1"> No Fly Zone</p>
+          </div>
         </div>
-      </div>
-      <div className="linebyline">
-        <div className="redcolorbox"></div>
-        <div>
-          <p className="areaName2"> Area of Interest</p>
+        <div className="linebyline">
+          <div className="redcolorbox"></div>
+          <div>
+            <p className="areaName2"> Area of Interest</p>
+          </div>
         </div>
-      </div>
-      <div className="linebyline">
-        <div className="greencolorbox"></div>
-        <div>
-          <p className="areaName3"> Traffic Zone</p>
+        <div className="linebyline">
+          <div className="greencolorbox"></div>
+          <div>
+            <p className="areaName3"> Traffic Zone</p>
+          </div>
         </div>
-      </div>
-      <div className="linebyline">
-        <div className="purplecolorbox"></div>
-        <div className="areaName4">
-          <p> High Crime Zone</p>
+        <div className="linebyline">
+          <div className="purplecolorbox"></div>
+          <div className="areaName4">
+            <p> High Crime Zone</p>
+          </div>
         </div>
-      </div>
       </div>
 
       <div className="geoZo">
         <p className="geoZone">Geo Zones</p>
 
         <div className="zoneInside">
-        <img src={Addbtn} alt="plus" />
-        <p className="addZonbtn">Add Zone</p>
+          <img src={Addbtn} alt="plus" />
+          <p className="addZonbtn">Add Zone</p>
         </div>
       </div>
 
-
       <div className="openNotification1">
         <div className="colorText">
-        <img src={Groupdots} alt="dots" />
+          <img src={Groupdots} alt="dots" />
         </div>
         <div></div>
         <div></div>
-
       </div>
 
       <div className="openNotification2">
         <div className="colorText">
-        <img src={Groupdots} alt="dots" />
+          <img src={Groupdots} alt="dots" />
         </div>
         <div></div>
         <div></div>
       </div>
 
       <Noti />
-
-      </div>
+    </div>
   );
 }
 
